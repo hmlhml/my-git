@@ -147,3 +147,11 @@ git 有个概念叫 暂存区，你可以把它看成一块空白帆布，包裹
 `git remote add origin https://github.com/hmlhml/my-git.git`
 
 一个项目可以同时拥有好几个远端仓库为了能够区分，通常会起不同的名字。通常主远端仓库被称为origin。
+
+
+# git vim 编辑器基本操作
+用 git 命令行提交文件时，默认使用 vim 编辑器，基本操作：
+
+* 按 a, i 或 o 进入编辑模式
+* 按 ESC 进入操作模式
+* 在操作模式下，:wq 为写入退出，:q! 不保存退出   
